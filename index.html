@@ -3,24 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Breathing App</title>
+    <title>Breathify</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bg-particles"></div>
+    <div class="bg-particles">
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+
+        <div class="particles"></div>
+        <div class="particles"></div>
+        <div class="particles"></div>
+        <div class="particles"></div>
+        <div class="particles"></div>
+    </div>
 
     <div class="container">
         <h1>Calm</h1>
-        <p class="subtitle">Find your center through breathe</p>
-        
+        <p class="subtitle">Find your center through breath</p>
+
         <div class="breathing-circle" onclick="toggleBreathing()">
             <div class="circle" id="breathingCircle">
-                <div style="color: white; font-size: 1.2rem; font-weight: 300; z-index: 2;">Breathe</div>
+                <div style="color:white; font-size: 1.2rem; font-weight: 300; z-index: 2;">Breathe</div>
             </div>
         </div>
 
         <div class="instruction" id="instruction">Click the circle to begin</div>
-        
+
         <div class="controls">
             <button class="btn" id="playBtn" onclick="toggleBreathing()">Start</button>
             <button class="btn" onclick="resetSession()">Reset</button>
@@ -34,10 +44,7 @@
         </div>
 
         <div class="timer-display" id="timer">00:00</div>
-
     </div>
-    
-
 
     <script src="script.js"></script>
 </body>
