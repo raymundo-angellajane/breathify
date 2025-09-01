@@ -243,27 +243,18 @@ h1{
         font-size: 2rem;
     }
 
-    .subtitle{
-        font-size: 1rem;
-        margin-bottom: 30px;
-    }
-
     .breathing-circle{
         width: 150px;
         height: 150px;
-        margin-bottom: 30px;
     }
 
-    .btn{
-        padding: 10px 20px;
-        font-size: 0.9rem;
+    .controls{
+        flex-direction: column;
+        align-items: center;
     }
 
-    .sound-btn{
-        padding: 8px 15px;
-        font-size: 0.8rem;
+    .sound-controls{
+        gap: 10px;
     }
+
 }
-
-
-
